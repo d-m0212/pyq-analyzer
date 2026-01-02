@@ -1,16 +1,51 @@
-# React + Vite
+# PYQ Analyzer 🧠
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Stop guessing what to study.**
 
-Currently, two official plugins are available:
+I built this tool because I was tired of manually sifting through 5 years of previous question papers to figure out what's important. It's an AI-powered analyzer that helps you study smarter, not harder.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Landing Page Screenshot](public/vite.svg) *<!-- You can replace this with a real screenshot later -->*
 
-## React Compiler
+## 🚀 What it does
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Instead of flipping through pages of old exams, you just upload your question papers (PDFs or Images) and the app does the heavy lifting:
 
-## Expanding the ESLint configuration
+*   **Smart Parsing**: Uses OCR to extract questions from your files.
+*   **Trend Analysis**: Identifies which questions repeat year after year.
+*   **Instant Solutions**: Uses AI to generate accurate answers for the questions it finds.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Built With
+
+*   **Frontend**: React, Vite, Tailwind CSS
+*   **Animations**: Framer Motion
+*   **Icons**: Lucide React
+*   **Backend/DB**: Supabase
+
+## 💻 How to Run it
+
+1.  **Clone the repo**
+    ```bash
+    git clone https://github.com/d-m0212/pyq-analyzer.git
+    cd pyq-analyzer
+    ```
+
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
+
+3.  **Start the dev server**
+    ```bash
+    npm run dev
+    ```
+
+4.  **Open it up**
+    Visit `http://localhost:5173` to see it in action.
+
+## 📝 Setup Note
+You'll need a `.env.local` file with your API keys (Supabase, etc.) to get the backend features working properly.
+
+```env
+VITE_SUPABASE_URL=your_url_here
+VITE_SUPABASE_ANON_KEY=your_key_here
+```
