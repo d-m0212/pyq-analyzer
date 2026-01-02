@@ -1,0 +1,67 @@
+.uploadContainer {
+    border: 2px dashed hsl(var(--border));
+    border-radius: var(--radius);
+    padding: 3rem;
+    text-align: center;
+    transition: all 0.2s ease;
+    background-color: hsl(var(--card));
+    cursor: pointer;
+}
+
+.uploadContainer.active {
+    border-color: hsl(var(--primary));
+    background-color: hsl(var(--accent) / 0.1);
+}
+
+.icon {
+    color: hsl(var(--muted-foreground));
+    margin-bottom: 1rem;
+}
+
+.metaGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    text-align: left;
+}
+
+.label {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: var(--radius);
+    border: 1px solid hsl(var(--input));
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+}
+
+.fileList {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.fileItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem;
+    background-color: hsl(var(--card));
+    border: 1px solid hsl(var(--border));
+    border-radius: var(--radius);
+}
+
+.status {
+    font-size: 0.8rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 999px;
+    background-color: hsl(var(--muted));
+}
