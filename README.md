@@ -1,12 +1,12 @@
-# PYQ Analyzer 🧠
+# PYQ Analyzer 
 
 **Stop guessing what to study.**
 
 I built this tool because I was tired of manually sifting through 5 years of previous question papers to figure out what's important. It's an AI-powered analyzer that helps you study smarter, not harder.
 
-![Landing Page Screenshot](public/vite.svg) *<!-- You can replace this with a real screenshot later -->*
 
-## 🚀 What it does
+
+##  What it does
 
 Instead of flipping through pages of old exams, you just upload your question papers (PDFs or Images) and the app does the heavy lifting:
 
@@ -14,14 +14,14 @@ Instead of flipping through pages of old exams, you just upload your question pa
 *   **Trend Analysis**: Identifies which questions repeat year after year.
 *   **Instant Solutions**: Uses AI to generate accurate answers for the questions it finds.
 
-## 🛠️ Built With
+##  Built With
 
 *   **Frontend**: React, Vite, Tailwind CSS
 *   **Animations**: Framer Motion
 *   **Icons**: Lucide React
 *   **Backend/DB**: Supabase
 
-## 💻 How to Run it
+##  How to Run it
 
 1.  **Clone the repo**
     ```bash
@@ -42,7 +42,7 @@ Instead of flipping through pages of old exams, you just upload your question pa
 4.  **Open it up**
     Visit `http://localhost:5173` to see it in action.
 
-## 📝 Setup Note
+##  Setup Note
 You'll need a `.env.local` file with your API keys (Supabase, etc.) to get the backend features working properly.
 
 ```env
